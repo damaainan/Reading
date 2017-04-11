@@ -12,3 +12,9 @@ sed -n '1,2p' 心经.md | awk '{ {print substr($1, 2, 1); }}'
 sed -n '1,2p' 心经.md | awk '{ {print substr($1, 3, 1); }}'
 sed -n '1,2p' 心经.md | awk '{ {print substr($1, 4, 1); }}'
 
+
+# 打印长度大于 1 的行，过滤空行
+sed -n '1,$p'  1.txt | awk '{if (length($1) ) {print $1}}'
+# 打印所有拼音内容行 ，过滤空行
+sed -n '1,$p'  2.txt | awk -F: '{if (length($1) ) {print $1}}'
+    # awk 默认以空格分隔，设置为 : ,使其不能分隔
