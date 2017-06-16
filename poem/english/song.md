@@ -144,3 +144,17 @@ Just remember in the winter谨记莫忘，纵在凛冬
 Far beneath the bitter snows寒风凛凛，层层雪落   
 Lies the seed that with the sun's love壤中静候，粒粒新果   
 In the spring becomes the rose.春光洒时，盛放玫瑰             
+
+
+
+-----
+
+执子之手，承汝之忧。  
+愿为甜酿，盈汝之杯。  
+但如明烛，为汝之光。  
+永佩此誓，与汝偕老。  
+  
+With this hand,I will lift your sorrows.    
+Your cup will never empty,for I will be your wine.    
+With this candle,I will light your way in darkness.    
+With this ring, I ask you to be mine. ​​​​  
