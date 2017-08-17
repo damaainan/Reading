@@ -158,3 +158,86 @@ With this hand,I will lift your sorrows.
 Your cup will never empty,for I will be your wine.    
 With this candle,I will light your way in darkness.    
 With this ring, I ask you to be mine. ​​​​  
+
+---
+
+
+《Young and Beautiful》  
+——Lana Del Rey   
+电影《了不起的盖茨比》插曲
+
+I've seen the world, Done it all, had my cake now  
+目睹世界，尽失初样  
+Diamonds, brilliant, and Bel-Air now  
+金迷纸醉，靡靡奢华  
+Hot summer nights, mid-July  
+仲夏夜茫，七月未央  
+When you and I were forever wild  
+我们年少轻狂，不惧岁月漫长  
+The crazy days, the city lights  
+纵情时光，华灯初上  
+The way you'd play with me like a child  
+我们嬉戏疯狂，童稚之心难藏
+
+Will you still love me when I'm no longer young and beautiful  
+当年华老去，容颜不再，你是否爱我如初，直到地久天长  
+Will you still love me when I got nothing but my aching soul  
+当一无所有，遍体鳞伤，你是否爱我如初，直到地久天长  
+I know you will, I know you will   
+我深知你会，我深知你会  
+I know that you will  
+我深知你的爱经久绵长  
+Will you still love me when I'm no longer beautiful  
+当容颜不再，你是否爱我如初，直到地久天长
+
+I've seen the world, lit it up as my stage now  
+目睹世界，舞台聚光  
+Channeling angels in the new age now  
+粉墨登场，年代转化  
+Hot summer days, rock and roll  
+白日盛夏，摇滚震耳欲响  
+The way you'd play for me at your show  
+你华装登场，独为我而唱  
+And all the ways I got you know  
+精致脸庞，魂灵不羁狂妄  
+Your pretty face and electric soul  
+你华装登场，我一睹难忘
+
+Will you still love me when I'm no longer young and beautiful  
+当年华老去，容颜不再，你是否爱我如初，直到地久天长  
+Will you still love me when I got nothing but my aching soul.  
+当一无所有，遍体鳞伤，你是否爱我如初，直到地久天长  
+I know you will, I know you will   
+我深知你会，我深知你会  
+I know that you will   
+我深知你的爱经久绵长  
+Will you still love me when I'm no longer beautiful  
+当容颜不再，你是否爱我如初，直到地久天长
+
+Dear lord when I get to heaven  
+上帝在上，当我去至天堂  
+Please let me bring my man  
+可否有他陪伴在旁  
+When he comes tell me that you'll let me  
+让他随行，让他进场  
+Father tell me if you can  
+神灵请给我回答  
+All that grace, all that body, all that face, makes me wanna party  
+优雅气场，让我沉沦疯狂  
+He's my sun, he makes me shine like diamonds  
+他是太阳，他的光芒，让我如钻石夺目，璀璨闪亮
+
+Will you still love me when I'm no longer young and beautiful  
+当年华老去，容颜不再，你是否爱我如初，直到地久天长  
+Will you still love me when I got nothing but my aching soul  
+当一无所有，遍体鳞伤，你是否爱我如初，直到地久天长  
+I know you will, I know you will   
+我深知你会，我深知你会  
+I know that you will   
+我深知你的爱经久绵长  
+Will you still love me when I'm no longer beautiful  
+当容颜不再，你是否爱我如初，直到地久天长
+
+----
+
+
