@@ -315,3 +315,16 @@ May we remain forever in good health,
 
 And spend the Iast years of our Iives at ease—Over a contest of wine!
 
+----
+
+执子之手 共你一世风霜   
+Holding your hand and aging with you.  
+
+吻子之眸 赠你一世深情   
+Kiss your eyes and give you love. ​ ​​​ ​​​​
+
+----
+"若青木不朽 我恋你三生三世 
+若青木腐朽 我念你三世三生"
+If Aoki immortality I love you three lives
+If Aoki decay I read you three generations
