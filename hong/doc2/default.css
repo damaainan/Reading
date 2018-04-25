@@ -1,0 +1,17 @@
+*{font-family: "黑体";}
+jiaxu{font-family: "楷体";font-size: 16px;color:DodgerBlue;}
+jimao{font-family: "楷体";font-size: 16px;color:DarkGreen;}
+gengchen{font-family: "楷体";font-size: 16px;color:Chocolate;}
+meng{font-family: "楷体";font-size: 16px;color:Coral;}
+jiachen{font-family: "楷体";font-size: 16px;color:Coral;}
+
+poem{font-family: "楷体";font-size: 16px;color:red;}
+
+.green{color:green;}
+.blue{color:blue;}
+.red{color:red;}
+.cyan{color:cyan;}
+.purple{color:purple;}
+.bold{font-weight: bold;}
+.eightteen{font-size:18px;}
+.twenty{font-size:20px;}
