@@ -1,0 +1,646 @@
+@page {
+    margin-bottom: 5pt;
+    margin-top: 5pt
+    }
+@font-face {
+    font-family: "仿宋";
+    src: local("DK-FANGSONG"), local("仿宋"), local("仿宋_GB18030"), local("仿宋_GB2312"), local("ZY-FANGSONG"), local("汉仪仿宋简"), url(OEBPS/Fonts/FangSong.ttf) format("truetype");
+    /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */
+    font-weight: normal
+    }
+@font-face {
+    font-family: "黑体";
+    src: local("DK-HEITI"), local("ht"), local("信黑 W4"), local("信黑"), local("微软雅黑"), local("雅黑"), local("STHeiti"), local("STHei"), local("MYing Hei S"), local("TBGothic"), local("Heiti"), local("Heiti SC"), local("Heiti TC"), local("ZY-ZW-HEITI"), local("方正兰亭黑"), url(OEBPS/Fonts/SimHei.ttf) format("truetype");
+    /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */
+    font-weight: normal
+    }
+@font-face {
+    font-family: "楷体";
+    src: local("MKaiGB18030C-Bold"), local("DK-KAITI"), local("kt"), local("KaiTi"), local("STKaiti"), local("STKai"), local("楷体"), local("楷体_GB18030"), local("楷体_GB2312"), local("Kaiti"), local("Kaiti SC"), local("Kaiti TC"), local("MKai PRC"), local("MKaiGB18030C-Medium"), local("ZY-KAITI"), local("汉仪楷体简"), url(OEBPS/Fonts/KaiTi.ttf) format("truetype");
+    /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */
+    font-weight: normal
+    }
+@font-face {
+    font-family: "书宋";
+    src: local("HYMyeongJo"), local("DK-SONGTI"), local("st"), local("st"), local("SongTi"), local("Songti"), local("正文"), local("宋体"), local("明体"), local("明朝"), local("Songti"), local("Songti SC"), local("Songti TC"), local("STSongti"), local("STSong"), local("Song S"), local("STBShusong"), local("TBMincho"), local("ZY-ZW-SONGTI"), local("汉仪书宋二简"), url(OEBPS/Fonts/SimSun.ttf) format("truetype");
+    /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */
+    font-weight: normal
+    }
+@font-face {
+    font-family: "小标宋";
+    src: local("DK-XIAOBIAOSONG"), local("方正小标宋_GBK"), local("方正小标宋简体"), local("方正小标宋繁体"), local("ZY-XIAOBIAOSONG"), url(OEBPS/Fonts/XiaoBiaoSong.ttf) format("truetype");
+    /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */
+    font-weight: normal
+    }
+@font-face {
+    font-family: "毛泽东";
+    src: url(OEBPS/Fonts/MaoZeDong.ttf) format("truetype");
+    /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */
+    font-weight: normal
+    }
+@font-face {
+    font-family: "悦宋";
+    src: url(OEBPS/Fonts/YueSong.ttf) format("truetype");
+    /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */
+    font-weight: normal
+    }
+@font-face {
+    font-family: "细黑一";
+    src: url(OEBPS/Fonts/XiHei1.ttf) format("truetype");
+    /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */
+    font-weight: normal
+    }
+@font-face {
+    font-family: "秀楷";
+    src: url(OEBPS/Fonts/XiuKai.ttf) format("truetype");
+    /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */
+    font-weight: normal
+    }
+
+.autor {
+    background-color: #f5d793;
+    border-bottom-color: #f5d793;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: #f5d793;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: #f5d793;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-color: #f5d793;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: #da251d;
+    display: block;
+    float: right;
+    font-family: "仿宋";
+    font-size: 1em;
+    margin-bottom: 0;
+    margin-left: 0.25em;
+    margin-right: 0.5em;
+    margin-top: 0.85em;
+    padding-bottom: 0.25em;
+    padding-left: 0.25em;
+    padding-right: 0.25em;
+    padding-top: 0.25em;
+    width: 1em
+    }
+.book {
+    border-left-color: #f5d793;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: #f5d793;
+    border-right-style: solid;
+    border-right-width: 1px;
+    display: block;
+    float: right;
+    font-family: "仿宋";
+    font-size: 0.83333em;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0.35em;
+    margin-top: 1em;
+    padding-bottom: 0;
+    padding-left: 0.35em;
+    padding-right: 0.35em;
+    padding-top: 0;
+    width: 1em
+    }
+.book1 {
+    border-left-color: #f5d793;
+    border-left-style: solid;
+    border-left-width: 1px;
+    display: block;
+    float: right;
+    font-family: "楷体";
+    font-size: 0.83333em;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0.35em;
+    margin-top: 1em;
+    padding-left: 0.25em;
+    width: 1em
+    }
+.border {
+    background-color: #f5ecd7;
+    border-bottom-color: #f5d27f;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-left-color: #f5d27f;
+    border-left-style: solid;
+    border-left-width: 2px;
+    border-right-color: #f5d27f;
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-top-color: #f5d27f;
+    border-top-style: solid;
+    border-top-width: 2px;
+    display: block;
+    height: 10em;
+    margin-bottom: 0;
+    margin-top: 30%;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0.5em;
+    padding-top: 1em
+    }
+.border1 {
+    background-color: #f5ecd7;
+    border-bottom-color: #f5d793;
+    border-bottom-style: dashed;
+    border-bottom-width: 1px;
+    border-left-color: #f5d793;
+    border-left-style: dashed;
+    border-left-width: 1px;
+    border-right-color: #f5d793;
+    border-right-style: dashed;
+    border-right-width: 1px;
+    border-top-color: #f5d793;
+    border-top-style: dashed;
+    border-top-width: 1px;
+    display: block;
+    height: 10em;
+    margin-bottom: 0;
+    margin-top: 30%;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
+    width: 80%
+    }
+.calibre {
+    display: block;
+    font-size: 1em;
+    margin-bottom: 0;
+    margin-left: 5pt;
+    margin-right: 5pt;
+    margin-top: 0;
+    padding-left: 0;
+    padding-right: 0
+    }
+.calibre1 {
+    display: block
+    }
+.calibre2 {
+    height: auto;
+    width: 100%
+    }
+.calibre3 {
+    display: block;
+    font-size: 1em;
+    margin-bottom: 0;
+    margin-left: 5pt;
+    margin-right: 5pt;
+    margin-top: 0;
+    padding-bottom: 0.5em;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0.5em
+    }
+.calibre4 {
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0.67em
+    }
+.calibre5 {
+    display: block;
+    line-height: 1.2
+    }
+.calibre6 {
+    -webkit-text-decoration-skip: objects;
+    background-color: transparent
+    }
+.calibre7 {
+    display: block;
+    font-size: 1.66667em;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0.83em
+    }
+.calibre8 {
+    bottom: -0.25em;
+    font-size: 0.75em;
+    line-height: 1.2;
+    position: relative;
+    vertical-align: baseline
+    }
+.chapter_color {
+    background-color: #f6f2e9;
+    display: block;
+    font-size: 1em;
+    margin-bottom: 0;
+    margin-left: 5pt;
+    margin-right: 5pt;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0
+    }
+.chapter_title {
+    color: #da251d;
+    display: block;
+    font-family: "小标宋";
+    font-size: 2em;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0.67em;
+    text-align: center
+    }
+.cn_content {
+    display: block;
+    font-family: "宋体";
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-bottom: 0.5em;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 1em;
+    text-align: justify;
+    text-indent: 2em
+    }
+.cn_content_fangsong {
+    display: block;
+    font-family: "仿宋";
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-bottom: 0.5em;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 1em;
+    text-align: justify;
+    text-indent: 2em
+    }
+.cn_content_kaiti {
+    display: block;
+    font-family: "楷体";
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-bottom: 0.5em;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 1em;
+    text-align: justify;
+    text-indent: 2em
+    }
+.cn_content_no-indent {
+    display: block;
+    font-family: "宋体";
+    font-size: 1em;
+    margin-bottom: 0.5em;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding-left: 0.5em;
+    text-align: left;
+    text-indent: 0
+    }
+.cn_four-level_title {
+    border-bottom-color: #da251d;
+    border-bottom-style: double;
+    border-bottom-width: 4px;
+    color: #da251d;
+    display: block;
+    font-family: "小标宋";
+    font-size: 1em;
+    font-weight: normal;
+    line-height: 1.35em;
+    margin-bottom: 0.75em;
+    margin-left: 0;
+    margin-right: 70%;
+    margin-top: 0;
+    padding-bottom: 0.25em;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    text-align: left
+    }
+.cn_four-level_title1 {
+    border-bottom-color: #da251d;
+    border-bottom-style: double;
+    border-bottom-width: 4px;
+    color: #da251d;
+    display: block;
+    font-family: "小标宋";
+    font-size: 1em;
+    font-weight: normal;
+    line-height: 1.35em;
+    margin-bottom: 0.75em;
+    margin-left: 0;
+    margin-right: 70%;
+    margin-top: 1.35em;
+    padding-bottom: 0.25em;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    text-align: left
+    }
+.cn_inscribe_kaiti {
+    display: block;
+    font-family: "楷体";
+    font-size: 0.83333em;
+    margin-bottom: 0.5em;
+    margin-left: 0;
+    margin-right: 1em;
+    margin-top: 1em;
+    padding-right: 0.5em;
+    text-align: right
+    }
+.cn_italic {
+    font-style: italic
+    }
+.cn_picture_ {
+    border-bottom-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+    duokan-bleed: lefttopright;
+    height: auto;
+    width: 100%
+    }
+.cn_picture_1 {
+    border-bottom-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+    height: auto;
+    width: 65%
+    }
+.cn_picture-center_box {
+    display: block;
+    margin-bottom: 1.5em;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    page-break-before: always;
+    text-align: center;
+    width: 100%
+    }
+.cn_poetry_center-author {
+    display: block;
+    float: right;
+    font-family: "楷体";
+    font-size: 0.83333em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0.85em;
+    margin-top: 2.35em;
+    padding-bottom: 1em;
+    text-align: center;
+    width: 1em
+    }
+.cn_poetry_center-text {
+    display: block;
+    float: right;
+    font-family: "楷体";
+    font-size: 1em;
+    line-height: 1.3em;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0.25em;
+    margin-top: 0.5em;
+    text-align: center;
+    width: 1em
+    }
+.cn_poetry_center-title {
+    color: #da251d;
+    display: block;
+    float: right;
+    font-family: "小标宋";
+    font-size: 1.29167em;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 0.25em;
+    margin-left: 0.5em;
+    margin-right: 0.85em;
+    margin-top: 0.5em;
+    text-align: center;
+    width: 1em
+    }
+.cn_poetry_center-top {
+    display: block;
+    float: right;
+    font-family: "楷体";
+    font-size: 1em;
+    line-height: 1.3em;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 1em;
+    margin-top: 0.5em;
+    text-align: center;
+    width: 1em
+    }
+.cn_poetry_left-last {
+    display: block;
+    font-family: "仿宋";
+    font-size: 1em;
+    line-height: 1.3em;
+    margin-bottom: 0.85em;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0.25em;
+    text-align: center;
+    text-indent: 2em
+    }
+.cn_poetry_left-text {
+    display: block;
+    font-family: "仿宋";
+    font-size: 1em;
+    line-height: 1.3em;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0.25em;
+    text-align: center;
+    text-indent: 2em
+    }
+.cn_poetry_left-top {
+    display: block;
+    font-family: "仿宋";
+    font-size: 1em;
+    line-height: 1.3em;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0.85em;
+    text-align: center;
+    text-indent: 2em
+    }
+.cn_quote_text_kaiti {
+    display: block;
+    font-family: "楷体";
+    font-size: 1em;
+    line-height: 1.45em;
+    margin-bottom: 0.5em;
+    margin-left: 2em;
+    margin-right: 0;
+    margin-top: 0;
+    text-align: justify;
+    text-indent: 2em
+    }
+.cn_rarefont {
+    border-bottom-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+    height: 1em;
+    vertical-align: middle;
+    width: auto
+    }
+.duokan-footnote-item {
+    display: block;
+    font-family: "仿宋";
+    font-size: 0.83333em;
+    line-height: 1.5em;
+    margin-bottom: -0.5em;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 1em;
+    text-align: justify;
+    text-indent: 2em
+    }
+.line {
+    border-bottom-color: #A2906A;
+    border-bottom-style: dashed;
+    border-bottom-width: 0;
+    border-left-color: #A2906A;
+    border-left-style: dashed;
+    border-left-width: 0;
+    border-right-color: #A2906A;
+    border-right-style: dashed;
+    border-right-width: 0;
+    border-top-color: #A2906A;
+    border-top-style: dashed;
+    border-top-width: 1px;
+    box-sizing: content-box;
+    color: gray;
+    display: block;
+    height: 0;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5em;
+    overflow: visible
+    }
+.oval {
+    background-color: rgba(245, 236, 215, 0.5);
+    border-bottom-color: #da251d;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: #da251d;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: #da251d;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-color: #da251d;
+    border-top-style: solid;
+    border-top-width: 1px;
+    display: block;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 30%;
+    margin-top: 0;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px
+    }
+.ovalnote {
+    color: #c25f3b;
+    display: block;
+    font-family: "DK-KAITI", "kt", "楷体", "zw", serif;
+    font-size: 0.75em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 1em;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px
+    }
+.ovaltitle {
+    color: #da251d;
+    display: block;
+    font-family: "DK-HEITI", "ht", "黑体", "zw", sans-serif;
+    font-size: 1.29167em;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 3px;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-top: 3px;
+    padding-bottom: 14px;
+    padding-top: 15px;
+    text-align: center;
+    text-shadow: 0 1px 1px #fff
+    }
+.ovaltxt {
+    color: #da251d;
+    display: block;
+    font-family: "DK-XIHEITI", "细黑一", sans-serif;
+    font-size: 0.83333em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 1em;
+    padding-left: 15px;
+    padding-right: 15px
+    }
+.small {
+    color: #da251d;
+    font-size: 0.75em
+    }
+.speci {
+    background: #f6f2e9 url(OEBPS/Images/JiYun.png) no-repeat bottom right;
+    background-size: 80% auto;
+    display: block;
+    font-size: 1em;
+    margin-bottom: 0;
+    margin-left: 5pt;
+    margin-right: 5pt;
+    margin-top: 0;
+    padding-bottom: 0.5em;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0.5em
+    }
+.title {
+    color: #da251d;
+    display: block;
+    font-family: "小标宋";
+    font-size: 1.29167em;
+    line-height: 1.2;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: -20%;
+    text-align: center
+    }
+.title_page {
+    display: block;
+    margin-top: 30%
+    }
+.title_page1 {
+    display: block;
+    margin-top: 0;
+    page-break-after: always
+    }
+
+@page {
+    margin-bottom: 5pt;
+    margin-top: 5pt
+    }
+

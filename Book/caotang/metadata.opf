@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">10</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">1de9a5af-31f5-4369-919d-f5f7c10dff85</dc:identifier>
+        <dc:title>阅微草堂笔记（中华经典名著全本全注全译丛书）</dc:title>
+        <dc:creator opf:file-as="制作者" opf:role="aut">紫府秘库</dc:creator>
+        <dc:creator opf:file-as="制作者" opf:role="aut">韩希明</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (3.1.1) [https://calibre-ebook.com]</dc:contributor>
+        <dc:date>2017-02-09T16:00:00+00:00</dc:date>
+        <dc:publisher>中华书局</dc:publisher>
+        <dc:identifier opf:scheme="ISBN">978-7-101-09805-1</dc:identifier>
+        <dc:language>zho</dc:language>
+        <dc:subject>笔记小说－作品集－中国－清代；《阅微草堂笔记》－译文；《阅微草堂笔记》－注释</dc:subject>
+        <meta content="{&quot;紫府秘库&quot;: &quot;&quot;, &quot;韩希明&quot;: &quot;&quot;}" name="calibre:author_link_map"/>
+        <meta content="2018-07-04T16:15:16.233000+00:00" name="calibre:timestamp"/>
+        <meta content="书名" name="calibre:title_sort"/>
+    </metadata>
+    <guide>
+        <reference href="cover.jpg" title="封面" type="cover"/>
+    </guide>
+</package>
