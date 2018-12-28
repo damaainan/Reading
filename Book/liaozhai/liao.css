@@ -5,6 +5,8 @@ body {
 .container {
     background: white;
     padding: 0 24px 15px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
 }
 
 h3 {
@@ -29,17 +31,39 @@ h4 {
     border-radius: 5px;
     border-bottom: 1px solid black;
     border-top: 1px solid black;
+}
+.markdown-body blockquote p{
     font-size: 16px;
 }
-
-section {
-    color: black;
-    background: rgba(128, 128, 128, 0.5);
+.markdown-body blockquote p b{
+    color:#387a07;
+    font-size: 16px;
+}
+.markdown-body blockquote:last-child{
+    background: #f8f4f4;
+    color:red;
+    padding: 12px;
+}
+section { /* 标签上面有内容才起效 */
+    color: #08207a;
+    background: rgba(207, 200, 200, 0.5);
     padding: 10px;
     border-radius: 12px;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     margin: 10px 0
 }
-
+aside {
+    color: #270c5b;
+    background: rgba(129, 92, 59, 0.5);
+    padding: 15px 20px;
+    border-radius: 12px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin: 10px 0;
+    font-size: 16px
+}
+aside p{
+    font-size: 16px; 
+}
 /*原文*/
